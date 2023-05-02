@@ -20,28 +20,13 @@ html, body {
     justify-content: space-between;
 }
 
-.flex-container-1 {
+.card {
     background-color: pink;
-    max-width: 30em;
+    /* max-width: 30em; */
     height: 10em;
+    margin-bottom: 2rem;
 }
 
-.flex-container-2 {
-    background-color: purple;
-    /* display: flex; */
-    /* justify-content: left;
-    align-items: end; */
-    max-width: 30em;
-    height: 10em;
-}
-.flex-container-3 {
-    background-color: green;
-    /* display: flex; */
-    /* justify-content: right;
-    align-items: center; */
-    max-width: 30em;
-    height: 10em;
-}
 
 aside {
     display: flex;
@@ -50,6 +35,6 @@ aside {
     /* align-items: center;
     float:right; */
     max-width: 10em;
-    height: 30em;
+    height: 34em;
     background-color: blue;
 }
