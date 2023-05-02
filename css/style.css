@@ -23,8 +23,11 @@ html, body {
 .card {
     background-color: pink;
     /* max-width: 30em; */
-    height: 10em;
+    height: 10rem;
     margin-bottom: 2rem;
+    border-radius: 10px;
+    max-width: 40rem;
+    box-shadow: 20px 20px #000000;
 }
 
 
@@ -34,7 +37,13 @@ aside {
     flex-direction: column;
     /* align-items: center;
     float:right; */
-    max-width: 10em;
-    height: 34em;
+    max-width: 10rem;
+    height: 34rem;
     background-color: blue;
+    border-radius: 10px;
+    box-shadow: 20px 20px #000000;
+}
+
+.contact-info {
+    max-width: 10rem;
 }
