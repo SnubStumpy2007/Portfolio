@@ -13,8 +13,7 @@ header {
 }
 
 .nav {
-    /* display: flex;
-    justify-content: space-between; */
+    margin-right: 2rem;
 }
 
 a:link {
@@ -24,6 +23,10 @@ a:link {
     padding: 1rem;
     color: #ffffff;
     text-decoration: none;
+}
+
+a:hover {
+    background-color: #660066;
 }
 
 .hero {
