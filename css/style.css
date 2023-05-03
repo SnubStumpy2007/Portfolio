@@ -23,6 +23,7 @@ a:link {
     outline:#000000;
     padding: 1rem;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .hero {
@@ -70,3 +71,74 @@ footer {
     max-height: 10rem;
     background-color: orange;
 }
+
+/* Media querys */
+ @media screen and (max-width:940px ) {
+
+    .hero {
+        display: flex;
+        align-items: center;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        max-width: 940px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .inner-container {
+        display:flex;
+        flex-direction: column;
+    }
+
+    /* .card {
+   
+
+    } */
+
+    aside {
+        height: 10rem;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+        max-width: 40rem;
+        box-shadow: 20px 20px #000000;
+    }
+ }
+
+ @media screen and (max-width: 414px) {
+
+    .hero {
+        display: flex;
+        align-items: center;
+    } 
+
+    header {
+        display: flex;
+        justify-content: center;
+        max-width: 940px;
+    }
+    .inner-container {
+        display:flex;
+        justify-content: end;
+        flex-direction: column;
+    }
+
+    .card {
+        box-shadow: none;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    aside {
+        display: flex;
+        box-shadow: none;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+ }
