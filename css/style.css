@@ -18,7 +18,7 @@ header {
     margin-right: 2rem;
 }
 
-a:link {
+.nav-link:link {
     background-color: #ff33cc;
     border-radius: 10px;
     outline:#000000;
@@ -27,9 +27,15 @@ a:link {
     text-decoration: none;
 }
 
-a:hover {
+.nav-link:hover {
     background-color: #660066;
 }
+
+.nav-link:visited {
+    color:#ffffff;
+}
+
+
 
 .hero {
     display: flex;
@@ -41,9 +47,18 @@ p {
     line-height: 1.5rem;
 }
 
+img {
+    height: 10rem;
+    width: 10rem;
+}
+
+img:hover {
+    transform: scale(3);
+}
+
 .container {
     display: flex;
-   justify-content: space-evenly;
+    justify-content: space-evenly;
     
 }
 .inner-container {
