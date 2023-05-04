@@ -36,6 +36,11 @@ a:hover {
     flex-direction: column;
 }
 
+p {
+    line-height: 1.5;
+    line-height: 1.5rem;
+}
+
 .container {
     display: flex;
    justify-content: space-evenly;
@@ -59,6 +64,10 @@ a:hover {
 
 .biography {
     height: 20rem;
+}
+
+ul {
+    list-style: none;
 }
 
 aside {
