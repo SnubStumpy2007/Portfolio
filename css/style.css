@@ -11,6 +11,7 @@ html, body {
     height: 100%;
     max-width: 100rem;
     background-color: var(--purple);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -43,6 +44,9 @@ header {
     color: var(--white);
 }
 
+h1 {
+    font-size: 1.7rem;
+}
 
 
 .hero {
@@ -53,7 +57,8 @@ header {
 p {
     line-height: 1.5;
     line-height: 1.5rem;
-    color: var(--white)
+    color: var(--black);
+    font-size: 1.2rem;
 }
 
 img {
@@ -78,10 +83,10 @@ img:hover {
 
 .card {
     background-color: var(--pink);
-    height: 20rem;
+    height: 25rem;
     margin-bottom: 4rem;
     border-radius: 10px;
-    max-width: 40rem;
+    max-width: 45rem;
     box-shadow: 20px 20px var(--black);
 }
 
@@ -91,13 +96,14 @@ img:hover {
 
 ul {
     list-style: none;
-    color: var(--white);
+    color: var(--black);
+    font-size: 1.2rem;
 }
 
 aside {
     display: flex;
     flex-direction: column;
-    max-width: 10rem;
+    max-width: 15rem;
     height: 34rem;
     background-color: var(--pink);
     border-radius: 10px;
@@ -107,10 +113,24 @@ aside {
 footer {
     max-width: 10rem;
     max-height: 10rem;
-    background-color: orange;
+    background-color: var(--pink);
 }
 
 /* Media querys */
+@media screen and (max-width: 1049px) {
+    aside {
+        display: flex;
+        flex-direction: column;
+        max-width: 10rem;
+        height: 34rem;
+        background-color: var(--pink);
+        border-radius: 10px;
+        box-shadow: 20px 20px var(--black);
+    }
+}
+
+
+
  @media screen and (max-width:940px ) {
 
     .hero {
