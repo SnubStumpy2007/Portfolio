@@ -259,10 +259,6 @@ footer {
         width: 20rem;
     }
 
-    .card .biography {
-        height: 100rem;
-    }
-
     img:hover {
         transform: scale(1);
     }
